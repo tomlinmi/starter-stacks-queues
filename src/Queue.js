@@ -12,6 +12,8 @@ class Node {
       this.last = null;
     }
   
+    //insert node in a queue
+
         enqueue(value) {
         const newNode = new Node(value);
 
@@ -26,6 +28,8 @@ class Node {
             this.last = newNode;
         	}
 
+
+  //remove node froma queue        
         dequeue() {
              if (this.first) {
              const dequeued = this.first;
