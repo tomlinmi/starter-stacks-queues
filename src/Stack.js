@@ -5,7 +5,9 @@ class Node {
       this.next = next;
     }
   }
-  
+
+
+
   class Stack {
     constructor() {
       this.top = null;
